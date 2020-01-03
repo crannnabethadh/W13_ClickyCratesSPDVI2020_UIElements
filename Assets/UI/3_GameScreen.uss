@@ -1,0 +1,15 @@
+﻿VisualElement {}
+
+.screen {
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.default-text {
+    -unity-text-align: upper-left;
+    font-size: 40px;
+    margin-top: 6px;
+    flex-grow: 1;
+    color: orangered;
+}
