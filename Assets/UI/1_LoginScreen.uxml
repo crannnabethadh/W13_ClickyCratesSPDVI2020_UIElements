@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+  <engine:VisualElement name="loginPanel" class="panel">
+    <engine:VisualElement name="spdvi_FirstNameGroup" class="spdvi_textinputgroup">
+      <engine:Label text="First Name:" class="label"/>
+      <engine:TextField name="spdvi_FirstNameTextField" class="textfield"/>
+    </engine:VisualElement>
+    <engine:VisualElement name="spdvi_LastNameGroup" class="spdvi_textinputgroup">
+      <engine:Label text="Last Name:" class="label"/>
+      <engine:TextField name="spdvi_LastNameTextField" class="textfield"/>
+    </engine:VisualElement>
+  </engine:VisualElement>
+</engine:UXML>

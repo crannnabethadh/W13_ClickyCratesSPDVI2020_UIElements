@@ -1,0 +1,44 @@
+﻿VisualElement {
+}
+
+.panel {
+    border-width: 1px;
+    border-color: fuchsia;
+    font-size: 20px;
+    width: 70%;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    align-self: center;
+}
+
+.spdvi_textinputgroup {
+    border-width: 1px;
+    border-color: white;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+}
+
+.label {
+    border-width: 1px;
+    border-color: green;
+    color: white;
+}
+
+.textfield {
+    border-width: 1px;
+    border-color: orange;
+    flex-grow: 1;
+}
+
